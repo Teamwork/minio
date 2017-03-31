@@ -30,7 +30,7 @@ import (
 	"syscall"
 
 	humanize "github.com/dustin/go-humanize"
-	"github.com/minio/minio/pkg/disk"
+	"github.com/teamwork/minio/pkg/disk"
 )
 
 const (

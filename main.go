@@ -20,9 +20,9 @@
  * more information refer https://golang.org/doc/go1.4#canonicalimports
  */
 
-package main // import "github.com/minio/minio"
+package main // import "github.com/teamwork/minio"
 
-import minio "github.com/minio/minio/cmd"
+import minio "github.com/teamwork/minio/cmd"
 
 func main() {
 	minio.Main()

@@ -21,7 +21,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/minio/minio/pkg/disk"
+	"github.com/teamwork/minio/pkg/disk"
 )
 
 const invalidToken = "invalidToken"

@@ -20,7 +20,7 @@ import (
 	"os"
 	"sync"
 
-	"github.com/minio/minio/pkg/quick"
+	"github.com/teamwork/minio/pkg/quick"
 )
 
 // Read Write mutex for safe access to ServerConfig.

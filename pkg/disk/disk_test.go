@@ -21,7 +21,7 @@ import (
 	"os"
 	"testing"
 
-	"github.com/minio/minio/pkg/disk"
+	"github.com/teamwork/minio/pkg/disk"
 
 	. "gopkg.in/check.v1"
 )

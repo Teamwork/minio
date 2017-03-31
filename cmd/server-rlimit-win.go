@@ -18,7 +18,7 @@
 
 package cmd
 
-import "github.com/minio/minio/pkg/sys"
+import "github.com/teamwork/minio/pkg/sys"
 
 func setMaxOpenFiles() error {
 	// Golang uses Win32 file API (CreateFile, WriteFile, ReadFile,

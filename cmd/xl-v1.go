@@ -25,8 +25,8 @@ import (
 	"sync"
 
 	humanize "github.com/dustin/go-humanize"
-	"github.com/minio/minio/pkg/disk"
-	"github.com/minio/minio/pkg/objcache"
+	"github.com/teamwork/minio/pkg/disk"
+	"github.com/teamwork/minio/pkg/objcache"
 )
 
 // XL constants.

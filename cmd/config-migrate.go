@@ -22,7 +22,7 @@ import (
 	"path/filepath"
 
 	"github.com/minio/mc/pkg/console"
-	"github.com/minio/minio/pkg/quick"
+	"github.com/teamwork/minio/pkg/quick"
 )
 
 func migrateConfig() error {

@@ -25,7 +25,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/minio/minio/pkg/lock"
+	"github.com/teamwork/minio/pkg/lock"
 )
 
 // A uploadInfo represents the s3 compatible spec.

@@ -20,7 +20,7 @@ import (
 	"runtime"
 	"testing"
 
-	"github.com/minio/minio/pkg/lock"
+	"github.com/teamwork/minio/pkg/lock"
 )
 
 // Tests long path calls.

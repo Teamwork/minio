@@ -24,7 +24,7 @@ import (
 	"net/url"
 	"path"
 
-	"github.com/minio/minio/pkg/disk"
+	"github.com/teamwork/minio/pkg/disk"
 )
 
 type networkStorage struct {

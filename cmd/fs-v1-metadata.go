@@ -25,8 +25,8 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/minio/minio/pkg/lock"
-	"github.com/minio/minio/pkg/mimedb"
+	"github.com/teamwork/minio/pkg/lock"
+	"github.com/teamwork/minio/pkg/mimedb"
 )
 
 const (

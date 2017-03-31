@@ -18,6 +18,7 @@ package cmd
 
 import (
 	"crypto/md5"
+	"crypto/sha256"
 	"encoding/hex"
 	"errors"
 	"fmt"
@@ -30,9 +31,8 @@ import (
 	"strings"
 	"syscall"
 
-	"github.com/minio/minio/pkg/disk"
-	"github.com/minio/minio/pkg/lock"
-	"github.com/minio/sha256-simd"
+	"github.com/teamwork/minio/pkg/disk"
+	"github.com/teamwork/minio/pkg/lock"
 )
 
 // fsObjects - Implements fs object layer.

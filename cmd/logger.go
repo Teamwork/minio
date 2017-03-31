@@ -53,7 +53,7 @@ func callerSource() string {
 	}
 	file = path.Base(file)
 	name := runtime.FuncForPC(pc).Name()
-	name = strings.TrimPrefix(name, "github.com/minio/minio/cmd.")
+	name = strings.TrimPrefix(name, "github.com/teamwork/minio/cmd.")
 	return fmt.Sprintf("[%s:%d:%s()]", file, line, name)
 }
 

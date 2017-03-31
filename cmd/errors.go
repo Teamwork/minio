@@ -94,7 +94,7 @@ func traceError(e error, errs ...error) error {
 		}
 
 		file = strings.TrimPrefix(file, rootPath+string(os.PathSeparator))
-		name = strings.TrimPrefix(name, "github.com/minio/minio/cmd.")
+		name = strings.TrimPrefix(name, "github.com/teamwork/minio/cmd.")
 		err.trace = append(err.trace, traceInfo{file, line, name})
 	}
 

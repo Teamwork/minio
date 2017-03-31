@@ -25,7 +25,7 @@ import (
 	"reflect"
 
 	humanize "github.com/dustin/go-humanize"
-	"github.com/minio/minio/pkg/bpool"
+	"github.com/teamwork/minio/pkg/bpool"
 )
 
 // Tests getReadDisks which returns readable disks slice from which we can

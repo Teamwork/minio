@@ -21,7 +21,7 @@ package cmd
 import (
 	"syscall"
 
-	"github.com/minio/minio/pkg/sys"
+	"github.com/teamwork/minio/pkg/sys"
 )
 
 // For all unixes we need to bump allowed number of open files to a

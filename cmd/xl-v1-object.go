@@ -18,6 +18,7 @@ package cmd
 
 import (
 	"crypto/md5"
+	"crypto/sha256"
 	"encoding/hex"
 	"hash"
 	"io"
@@ -26,10 +27,9 @@ import (
 	"sync"
 	"time"
 
-	"github.com/minio/minio/pkg/bpool"
-	"github.com/minio/minio/pkg/mimedb"
-	"github.com/minio/minio/pkg/objcache"
-	"github.com/minio/sha256-simd"
+	"github.com/teamwork/minio/pkg/bpool"
+	"github.com/teamwork/minio/pkg/mimedb"
+	"github.com/teamwork/minio/pkg/objcache"
 )
 
 // list all errors which can be ignored in object operations.

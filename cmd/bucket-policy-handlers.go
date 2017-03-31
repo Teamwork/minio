@@ -25,7 +25,7 @@ import (
 	humanize "github.com/dustin/go-humanize"
 	mux "github.com/gorilla/mux"
 	"github.com/minio/minio-go/pkg/set"
-	"github.com/minio/minio/pkg/wildcard"
+	"github.com/teamwork/minio/pkg/wildcard"
 )
 
 // maximum supported access policy size.

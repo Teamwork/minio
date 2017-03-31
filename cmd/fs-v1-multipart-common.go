@@ -24,7 +24,7 @@ import (
 
 	pathutil "path"
 
-	"github.com/minio/minio/pkg/lock"
+	"github.com/teamwork/minio/pkg/lock"
 )
 
 // Returns if the prefix is a multipart upload.

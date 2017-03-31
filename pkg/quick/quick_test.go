@@ -23,7 +23,7 @@ import (
 	"os"
 	"testing"
 
-	"github.com/minio/minio/pkg/quick"
+	"github.com/teamwork/minio/pkg/quick"
 	. "gopkg.in/check.v1"
 )
 

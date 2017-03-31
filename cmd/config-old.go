@@ -5,7 +5,7 @@ import (
 	"path/filepath"
 	"sync"
 
-	"github.com/minio/minio/pkg/quick"
+	"github.com/teamwork/minio/pkg/quick"
 )
 
 /////////////////// Config V1 ///////////////////

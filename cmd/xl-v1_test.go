@@ -21,7 +21,7 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/minio/minio/pkg/disk"
+	"github.com/teamwork/minio/pkg/disk"
 )
 
 // TestStorageInfo - tests storage info.
